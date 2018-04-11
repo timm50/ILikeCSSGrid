@@ -1,0 +1,41 @@
+<!-- GOOD DOCUMENTATION:  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout -->
+<!DOCTYPE html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid</title>
+  <style>
+    .grid{
+      display: grid;
+      grid-template-columns: 70% 30%;
+      /* grid-column-gap: 10px;
+      grid-row-gap: 10px; */
+      grid-gap: 10px;
+    }
+    .grid > div{
+      background: rgb(210, 210, 210);
+      padding: 10px;
+    }
+    .grid > div:nth-child(odd){
+      background: rgb(190, 190, 190);
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus illum sequi unde officiis perspiciatis repellat adipisci, nostrum aut. Delectus temporibus veritatis nesciunt ipsam sint voluptatum dignissimos amet autem, suscipit ad ut dicta aperiam quod optio officia quas labore odio dolorum, reprehenderit error, cumque aut non, animi in. Architecto fuga tempora aut officia adipisci reprehenderit, doloremque obcaecati amet voluptatibus molestiae voluptatem cumque ratione ipsum consequuntur laudantium blanditiis assumenda enim, necessitatibus nam consectetur aperiam. Ea eos assumenda culpa officia dolor pariatur dicta!
+    </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel dolorum explicabo dolores vitae ut deserunt architecto ea velit, voluptates provident in repellendus, sapiente numquam tenetur nisi laboriosam amet odit debitis?
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus illum sequi unde officiis perspiciatis repellat adipisci, nostrum aut. Delectus temporibus veritatis nesciunt ipsam sint voluptatum dignissimos amet autem, suscipit ad ut dicta aperiam quod optio officia quas labore odio dolorum, reprehenderit error, cumque aut non, animi in. Architecto fuga tempora aut officia adipisci reprehenderit, doloremque obcaecati amet voluptatibus molestiae voluptatem cumque ratione ipsum consequuntur laudantium blanditiis assumenda enim, necessitatibus nam consectetur aperiam. Ea eos assumenda culpa officia dolor pariatur dicta!
+      </div>
+        <div>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel dolorum explicabo dolores vitae ut deserunt architecto ea velit, voluptates provident in repellendus, sapiente numquam tenetur nisi laboriosam amet odit debitis?
+      </div>
+  </div>
+</body>
+</html>
